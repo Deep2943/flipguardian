@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home 1 - Flipguardian</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+        <!-- Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- CSS  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Js  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+<body>
+    <nav class="navbar fg-navbar navbar-expand-lg" id="navMain">
+        <a class="navbar-brand" href="home-1.html"><img src="images/logo.png" alt="Flipguardian" class="brand-logo-img"></a>
+        <button type="button" class="btn navbar-toggler border-0 toggle-menu" onclick="toggleSlide()" id="slide-toggle">
+            <span class="navbar-dash"></span>
+            <span class="navbar-dash"></span>
+            <span class="navbar-dash"></span>
+        </button>
+        <div class="slide navbar-slide" id="slideNavs">
+            <ul class="navbar-nav ml-auto" id="elastic_parentsss" data-targets=".nav-item">
+                <li class="nav-item active"><a class="nav-link" href="javascript:void(0)">Individual</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Teams</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Marketplace</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact Us</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="primary-btn with-logo"><i class="fa-solid fa-right-to-bracket icon"></i> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <section class="main-benner-section section-padding">
+        <div class="container">
+            <div class="row main-benner-row">
+                <div class="col-lg-6 center-col">
+                    <div class="text-content">
+                        <h3 class="heading">The <span class="color-primary">Workflow Platform</span> For Any Size Business</h3>
+                        <h6 class="subheading">Publishing, collaboration and monetization tools for individuals, teams and creators</h6>
+                        <div class="list-div">
+                            <div class="list-text"><i class="fa-solid fa-circle-check icon"></i> Captivating headline that highlights the benefits of Flip Guardian for both individuals and teams.</div>
+                            <div class="list-text"><i class="fa-solid fa-circle-check icon"></i> Engaging video that provides an overview of the platform's features.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 center-col">
+                    <div class="img-div">
+                        <img src="images/hero-vector.png" alt="The Workflow Platform For Any Size Business" class="img-fluid banner-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
