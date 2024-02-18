@@ -1,0 +1,119 @@
+FlipGuardian
+
+ref: https://www.omshantisurgical.com/
+https://www.upwork.com/nx/wm/workroom/36353090/overview
+https://www.figma.com/community/file/1076114643631880681
+https://flippingbook.com/
+
+Home page:
+Header:
+- Logo
+- Navigation: Individual, Teams, Marketplace, Pricing, Resources and Contact Us
+
+
+
+Title: Instantly Publish, Collaborate and Monetize Your Content
+OR
+The All-in-One Publishing Platform for Creators, Teams and Businesses
+
+
+
+Menu Options:
+- Home:
+- The main landing page that showcases the platform's features and benefits.
+
+
+
+- Individual:
+- A detailed overview of the platform's features, with in-depth explanations and examples.
+
+
+
+- Teams:
+- A detailed overview of the platform's features, with in-depth explanations and examples.
+
+
+
+- Marketplace:
+- A marketplace where users can buy and sell FlipBooks, templates, and other resources.
+
+
+
+- Pricing:
+- A dedicated page that displays the different pricing plans and their benefits.
+
+
+
+- Resources:
+- A collection of helpful resources, such as tutorials, guides, and FAQs.
+
+
+
+- Contact Us:
+- A form or email address for users to contact the Flip Guardian team for support or inquiries.
+
+
+
+---- Home Page: ----
+
+
+
+Hero Section:
+- Illustration showing cross-functional team collaborating
+- Header: "The Workflow Platform For Any Size Business"
+- Subheader: "Publishing, collaboration and monetization tools for individuals, teams and creators"
+- Captivating headline that highlights the benefits of Flip Guardian for both individuals and teams.
+- Engaging video that provides an overview of the platform's features.
+
+
+
+- CTA: Clear call-to-action buttons for individual and team subscriptions.
+NOTE: Repeat the call-to-action at the bottom of the page, encouraging visitors to sign up for a free trial or purchase a subscription.
+
+	
+
+Feature Highlights:
+- Individual Publishing
+- Design and publish flipbooks in minutes
+- Embed and share anywhere
+
+
+
+- Team Collaboration
+- Real-time co-editing and approval workflows
+- Activity insights and reports
+
+
+
+- Marketplace Monetization
+- Sell content to a global audience
+
+
+
+- Analytics on sales and downloads
+- Integration with external platforms
+NOTE: Use icons, short descriptions, and bullet points to make the features easy to understand.
+
+
+
+Calls to Action:
+- Video explaining platform benefits
+
+
+
+Customer Testimonials:
+- Quotes from existing customers on ease of use, support etc
+
+
+
+Pricing Section:
+- Navigate user to detailed pricing for Individual and Teams
+- Prominent summary and contact sales buttons
+
+
+
+Footer:
+- Company info
+- Contact Us
+- Resources like blog, templates
+- Social proof

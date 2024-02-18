@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marketplace - Flipguardian</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+        <!-- Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- CSS  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Js  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+<body>
+    <nav class="navbar fg-navbar navbar-expand-xl" id="navMain">
+        <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.png" alt="Flipguardian" class="brand-logo-img"></a>
+        <button type="button" class="btn navbar-toggler border-0 toggle-menu" onclick="toggleSlide()" id="slide-toggle">
+            <span class="navbar-dash"></span>
+            <span class="navbar-dash"></span>
+            <span class="navbar-dash"></span>
+        </button>
+        <div class="slide navbar-slide" id="slideNavs">
+            <ul class="navbar-nav ml-auto" id="elastic_parentsss" data-targets=".nav-item">
+                <li class="nav-item active"><a class="nav-link" href="javascript:void(0)">Individual</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Teams</a></li>
+                <li class="nav-item"><a class="nav-link active" href="javascript:void(0)">Marketplace</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact Us</a></li>
+                <li class="nav-item"><a href="javascript:void(0)" class="primary-btn with-logo"><i class="fa-solid fa-right-to-bracket icon"></i> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Market Place Page Sections  -->
+    <section class="page-banner-section">
+        <div class="container">
+            <div class="inner-content">
+                <h4 class="heading">Discover Engaging Digital Flipbooks</h4>
+                <h6 class="subheading">Browse our catalog of high-quality flipbooks created by professionals</h6>
+                <a href="javascript:void(0)" class="primary-btn">Start Browsing Catalog</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="introduction-div">
+        <div class="container">
+            <p class="introduction-text">Welcome to FlipGuardian Marketplace, your ultimate destination for captivating flipbooks that inform, entertain, and inspire. Whether you're an individual seeking knowledge or a team looking to enhance your content strategy, FlipGuardian has something for everyone.</p>
+        </div>
+    </div>
+
+    <div class="featured-categories section-padding">
+        <div class="container">
+            <div class="sec-heading-div">
+                <h3 class="title">Featured Categories</h3>
+            </div>
+            <div class="tag-content">
+                <div class="tag"><i class="fa-solid fa-book-open icon"></i>  Education</div>
+                <div class="tag"><i class="fa-solid fa-briefcase icon"></i>  Business</div>
+                <div class="tag"><i class="fa-solid fa-compass icon"></i>  Travel</div>
+                <div class="tag"><i class="fa-solid fa-lightbulb icon"></i>  Inspiration</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="popular-flipbooks-sec section-padding">
+        <div class="container">
+            <div class="sec-heading-div">
+                <h3 class="title mb-0">Popular Flipbooks</h3>
+            </div>
+
+            <div class="row mx-auto my-auto justify-content-center">
+                <div id="carouselExampleIndicators" class="carousel slide flipbooks-slider" data-bs-ride="carousel" data-bs-interval="100000000">
+                    <div class="carousel-inner flipbooks-cards" role="listbox">
+                      <div class="carousel-item active">
+                        <div class="col-md-4 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div">
+                                    <div class="img">IMG</div>
+                                </div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">PixelPainter92</h6>
+                                    <h6 class="title">Fantasy World Adventures on an Epic Journey</h6>
+                                    <p class="desc">Embark on an epic journey through a fantastical realm filled with magic and wonder.</p>
+                                    <h6 class="price">$9.99</h6>
+                                    <div class="star-div">
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="col-md-4 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div"><div class="img">IMG</div></div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">StoryWeaverPro</h6>
+                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
+                                    <h6 class="price">$12.99</h6>
+                                    <div class="star-div">
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="col-md-4 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div"><div class="img">IMG</div></div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">ArtisticDreamer</h6>
+                                    <h6 class="title">Dreamy Landscapes: A Visual Journey</h6>
+                                    <p class="desc">Lose yourself in the mesmerizing beauty of serene landscapes and tranquil scenes that evoke a sense of peace and tranquility.</p>
+                                    <h6 class="price">$12.99</h6>
+                                    <div class="star-div">
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="col-md-4 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div"><div class="img">IMG</div></div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">FlipbookMaster</h6>
+                                    <h6 class="title">The Art of Animation: Basics and Beyond the Limits</h6>
+                                    <p class="desc">Learn the fundamentals of animation and unleash your creativity with step-by-step guides and expert tips.</p>
+                                    <div class="price-star-div">
+                                        <h6 class="price">$12.99</h6>
+                                        <div class="star-div">
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="col-md-4 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div"><div class="img">IMG</div></div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">DigitalArtNinja</h6>
+                                    <h6 class="title">Digital Delights: A Collection of Stunning Artworks</h6>
+                                    <p class="desc">Feast your eyes on a gallery of breathtaking digital artworks showcasing the limitless possibilities of digital creativity.</p>
+                                    <h6 class="price">$12.99</h6>
+                                    <div class="star-div">
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon rated"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                        <i class="fa-solid fa-star star-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer  -->
+    <footer class="footer footer-dark">
+        <div class="container footer-container">
+            <div class="row footer-row">
+                <div class="col-lg-5">
+                    <div class="logo-content">
+                        <a href="javascript:void(0)"><img src="images/logo.png" alt="Flipguardian" class="footer-logo-img"></a>
+                        <div class="p-text-div">
+                            <p class="p-text">FlipGuardian is strictly for personal/commercial use only. It can be used in conjunction with the content you/your company owns. It cannot be used on behalf of a 3rd party, including clients and/or customers. If you have clients who would benefit from our software we recommend creating a standalone account for each client as required or referring the platform to them to purchase directly via your affiliate link. Anyone found using their account in breach of this policy will forfeit their account.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 left-padding">
+                    <h4 class="footer-title">Resources</h4>
+                    <div class="links">
+                        <a href="javascript:void(0)" class="footer-link">Individual</a>
+                        <a href="javascript:void(0)" class="footer-link">Teams</a>
+                        <a href="javascript:void(0)" class="footer-link">Marketplace</a>
+                        <a href="#pricing-section" class="footer-link">Pricing</a>
+                        <a href="javascript:void(0)" class="footer-link">Resources</a>
+                        <a href="javascript:void(0)" class="footer-link">Blog</a>
+                        <a href="javascript:void(0)" class="footer-link">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="footer-title">Get In Touch</h4>
+                    <div class="get-in-touch-div">
+                        <div class="location-div">Lorem ipsum dolor sit amet consectetur adipisicing US, 382620</div>
+                        <a href="tel:999-999-9999" class="contact-div">
+                            <i class="fa-solid fa-phone icon"></i> 999-999-9999
+                        </a>
+                        <div class="social-links">
+                            <a href="javascript:void(0)" class="footer-social-media-link"><i class="fa-brands fa-instagram icon"></i></a>
+                            <a href="javascript:void(0)" class="footer-social-media-link"><i class="fa-brands fa-x-twitter icon"></i></a>
+                            <a href="javascript:void(0)" class="footer-social-media-link"><i class="fa-brands fa-linkedin icon"></i></a>
+                            <a href="javascript:void(0)" class="footer-social-media-link"><i class="fa-brands fa-facebook icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-div">
+            <p class="copyright-text">Copyright - <a href="javascript:void(0)" class="color-primary text-decoration-none">FlipGuardian.com</a> a Synthium Health, Inc. Website - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        let items = document.querySelectorAll('.popular-flipbooks-sec .carousel .carousel-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 3
+            let next = el.nextElementSibling
+            for (var i=1; i<minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+
+        const carouselInner = document.querySelector('.carousel-inner');
+        const carouselItems = carouselInner.querySelectorAll('.carousel-item');
+
+        // Find the maximum height of all carousel items
+        let maxHeight = 0;
+        for (const item of carouselItems) {
+            maxHeight = Math.max(maxHeight, item.offsetHeight);
+        }
+
+        console.log(carouselItems)
+        carouselItems.forEach((data) => {
+            data.style.height = `${maxHeight}px`;    
+            console.log(data)
+        })
+
+        // Set the maximum height inline on the carousel-inner
+        // carouselInner.style.height = `${maxHeight}px`;
+
+        // Optional: Handle resizing or dynamic content changes
+        window.addEventListener('resize', () => {
+        // Recalculate and set the maximum height again
+        maxHeight = 0;
+        for (const item of carouselItems) {
+            maxHeight = Math.max(maxHeight, item.offsetHeight);
+        }
+        // carouselInner.style.height = `${maxHeight}px`;
+        });
+    </script>
+</body>
+</html>

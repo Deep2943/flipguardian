@@ -1,0 +1,40 @@
+Example site: https://flipboard.com/ (This is just a starting point, please do not copy their design)
+Here is the content for Marketplace page:
+
+Header: [Common Header]
+
+Hero Section:
+Title: Discover Engaging Digital Flipbooks
+Subheading: Browse our catalog of high-quality flipbooks created by professionals
+CTA: Start Browsing Catalog
+
+
+Introduction:
+Welcome to FlipGuardian Marketplace, your ultimate destination for captivating flipbooks that inform, entertain, and inspire. Whether you're an individual seeking knowledge or a team looking to enhance your content strategy, FlipGuardian has something for everyone.
+
+
+Featured content sections:
+- Get new ideas [NOTE: Newly launched products]
+- Find bestsellers
+- Discover renowned authors [NOTE: Featured sellers]
+
+
+Featured Categories: NOTE: display icons along with text labels
+- Education
+- Business
+- Travel
+- Inspiration
+	
+
+Popular Flipbooks:
+- Carousel displaying top rated flipbooks with Author Screen Name, Title, Image(s), Short description, Price, Rating, Preview
+
+
+Browse Catalog: NOTE: Include filters on left e.g. Price, Rating to refine discovery
+- Listed categories with thumbnail preview of books under each Author Screen Name, Title, Image(s), Short description, Price, Rating, Preview
+
+
+Footer: [Common Footer]
+
+
+NOTE: Buyer from the marketplace, after the "Login", the user should see their Account, Purchase history, likes, posts.
