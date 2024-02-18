@@ -35,6 +35,6 @@ Browse Catalog: NOTE: Include filters on left e.g. Price, Rating to refine disco
 
 
 Footer: [Common Footer]
-
+	
 
 NOTE: Buyer from the marketplace, after the "Login", the user should see their Account, Purchase history, likes, posts.
