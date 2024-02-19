@@ -1,0 +1,100 @@
+TOP Section Slider: There are 3 items: 1. Marketplace 2. Teams 3. Individual
+
+Marketplace Slider:
+Captivating Headline: Discover, Publish, Profit: Explore the FlipGuardian Marketplace
+Description: Step into our vibrant marketplace, where you can not only discover a treasure trove of flipbooks, reports, and publications but also preview them before purchase.
+Call-to-Action: "Start Exploring" -> [Comment: Navigate user to the Markeplace Page]
+Key Message:
+* Dive into our vibrant marketplace, where creativity meets opportunity
+* Find a diverse collection of flipbooks, reports, and publications from talented creators worldwide
+* Browse curated categories, preview content, and uncover hidden gems that ignite your curiosity
+* Join the publishing revolution and become a part of our thriving community
+
+
+-----
+Team Features Slider:
+Captivating Headline: Empower Your Team, Monetize Your Content
+Video Link: https://vimeo.com/914153086
+
+Key Message:
+* Empower your team with FlipGuardian's collaborative platform, enriched with cutting-edge AI capabilities. Streamline projects from ideation to market success
+* Unlock new monetization avenues by showcasing and selling your content in our integrated marketplace. Our innovative preview feature, proven to increase sales by 272%
+* Elevate your research projects with AI-powered video summaries, providing quick insights and enhancing knowledge dissemination
+* Seamlessly manage projects and track sales, all from a single dashboard
+* Create captivating flipbooks and reports enriched with rich media and AI assistance
+* Foster real-time collaboration with co-editing and annotation features, enhancing productivity and creativity
+
+Call-to-Action: "Start Exploring"  -> [Comment: Navigate user to Teams Subscription]
+
+
+-----
+Individual Features Slider:
+Captivating Headline: Elevate Your Publishing Journey, Profit from Your Passion
+Video Link: TBA
+
+Key Message:
+* Design and publish flipbooks in minutes with our intuitive tools and Artificial Intelligence. It's time for your voice to be heard.
+* Our innovative preview feature, proven to increase sales by 272%
+* Monetize your creations by selling them in our marketplace or through your own marketing efforts.
+* Enhance your storytelling with AI-powered video summaries, offering engaging previews and enticing your audience
+* Amplify your reach by embedding and sharing your content anywhere, attracting more buyers.
+* Integrate with external platforms to enhance your workflow.
+
+Call-to-Action: "Start Exploring"  -> [Comment: Navigate user to Individual Subscription]
+
+
+-----------------------------------------
+Pricing Section:
+
+Individuals:
+Headline: Elevate Your Publishing Journey, Profit from Your Passion
+* Design and publish captivating flipbooks effortlessly with our intuitive tools and AI assistance
+* Take advantage of our innovative preview feature, proven to increase sales by 272%
+* Monetize your creations through our integrated marketplace or your own marketing efforts
+* Enhance your storytelling with AI-powered video summaries
+* Attract more buyers with embedded content
+* Integration with external platforms
+* Unleash your authentic voice and let inspiration flow freely
+NOTE: when user clicks on "Get Individual", it should take the user to subscription/payments page
+
+For Teams
+
+Business:
+Headline: Empower Your Team, Monetize Your Content
+* Empower your team and elevate your content creation process with FlipGuardian's Teams Subscription
+* Leverage cutting-edge AI capabilities to streamline projects from ideation to market success
+* Showcase and sell your content in our integrated marketplace, utilizing our innovative preview feature that increases sales by 272%
+* Enhance research projects with AI-powered video summaries
+* Manage projects efficiently from a single dashboard, and foster real-time collaboration with co-editing and annotation features
+* Join the publishing revolution and unlock new monetization avenues for your team's content
+* Elevate results with AI that summarizes insights and powers automated content
+* Sell content to a global audience
+* Analytics on sales and downloads
+* Integration with external platforms
+
+
+-----------------------------------------
+Here are suggestions for compelling feature highlights with icons, titles and short descriptions:
+
+Individual
+🎨 Intuitive Design Tools: Create stunning flipbooks effortlessly with our user-friendly interface
+📈 Increased Sales: Boost your revenue with our proven preview feature, increasing sales by 272%
+💰 Monetization Opportunities: Sell your creations in our marketplace or through your own marketing efforts
+🤖 AI-Powered Summaries: Enhance your content with AI-generated video summaries for quick insights
+🚀 Embeddable Content: Expand your reach by embedding and sharing your content across platforms
+🔄 External Platform Integration: Seamlessly integrate with external platforms to enhance your workflow
+🖌 Express Creatively: Enrich your stories with vibrant images, video summaries and interactive elements
+🤝 Connect With Readers: Understand engagement and capture leads through integrated analytics
+
+Teams  
+🤝 Collaboration Hub: Centralize projects and foster real-time input with annotation and commenting
+📈 Increased Sales: Boost your revenue with our proven preview feature, increasing sales by 272%
+💡 Streamlined Projects: Streamline projects from ideation to market success with our comprehensive tools
+💼 Monetization Opportunities: Unlock new revenue streams by showcasing and selling content in our marketplace
+🎥 AI-Powered Insights: Gain valuable insights with AI-powered video summaries for enhanced knowledge dissemination
+📊 Analytics Dashboard: Track sales and project progress effortlessly from a centralized dashboard
+📝 Rich Media Creation: Create captivating flipbooks and reports enriched with rich media and AI assistance
+🔄 Real-Time Collaboration: Foster creativity and productivity with real-time co-editing and annotation features
+
+
+-----------------------------------------

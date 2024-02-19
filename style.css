@@ -48,8 +48,8 @@ body{font-family: "Poppins", sans-serif !important;}
 
 /* Hero Section  */
 /* .main-benner-section{background: #F8F8F8;} */
-.main-benner-section{overflow: hidden;height: 100%;}
-.main-benner-section .text-content .heading{font-family: var(--oxyzen-font);font-weight: bolder;font-size: 38px;line-height: 52px;margin-bottom: 10px;color: #000;}
+.main-benner-section{overflow: hidden;height: 100%;padding: 25px 0;}
+.main-benner-section .text-content .heading{font-family: var(--oxyzen-font);font-weight: bolder;font-size: 32px;line-height: 46px;margin-bottom: 10px;color: #000;}
 .main-benner-section .text-content .subheading{font-size: 18px;line-height: 28px;font-weight: 600;color: var(--dark-secondary-color);margin-bottom: 25px;}
 .main-benner-section .list-div{display: flex;flex-direction: column;gap: 10px 0;}
 .main-benner-section .list-div .list-text{display: flex;gap: 0 8px;font-size: 16px;line-height: 26px;color: #000;}
@@ -60,8 +60,9 @@ body{font-family: "Poppins", sans-serif !important;}
 .carousel-control-prev:hover, .carousel-control-next:hover{background: var(--primary-color);}
 .carousel-control-next-icon, .carousel-control-prev-icon{width: 24px;height: 24px;}
 .main-benner-section .right-col{justify-content: center;}
-.main-benner-section .video-tag{width: 425px;height: auto;max-height: 300px;}
-.main-benner-section .carousel-inner{display: flex;align-items: center;}
+.main-benner-section .video-tag{width: 100%;height: 100%;max-height: 100%;}
+.main-benner-section .video-div{width: 100%;height: 100%;}
+.main-benner-section .carousel-inner{display: flex;align-items: center;height: 600px;}
 
 /* Feature Highlights Section */
 .feature-sec{background: #fff;}
@@ -79,6 +80,7 @@ body{font-family: "Poppins", sans-serif !important;}
 .feature-sec .feature-card .list-div .list{display: flex;align-items: center;gap: 0 10px;font-size: 14px;line-height: 24px;}
 .feature-sec .feature-card .list-div .list .icon{font-size: 12px;color: var(--primary-color);}
 .feature-sec .feature-card .subheading{font-size: 14px;line-height: normal;text-transform: capitalize;color: #00000060;margin-bottom: 0;font-weight: 700;}
+.feature-sec .feature-card .p-text{max-width: 530px;}
 
 /* v2  */
 /* .feature-sec.v2 .common-heading{align-items: flex-start;} */
@@ -128,7 +130,7 @@ body{font-family: "Poppins", sans-serif !important;}
 .price-section .price-row{gap: 30px 0;}
 .price-section .month-tag{font-size: 11px;padding: 4px 12px;background: #f3f3f3;border-radius: 60px;color: var(--primary-color);width: fit-content;font-weight: 600;margin-bottom: 5px;display: block;}
 .price-section .pricing-for-heading{font-size: 22px;line-height: 28px;font-weight: 700;color: #000;margin-bottom: 15px;text-align: left;padding-bottom: 15px;border-bottom: 1px solid #ddd;}
-.price-section .cards{display: grid;grid-template-columns: repeat(1,1fr);gap: 0 15px;}
+.price-section .cards{display: grid;grid-template-columns: repeat(1,1fr);gap: 0 15px;height: 100%;}
 .price-section .price-card{display: flex;flex-direction: column;gap: 20px 0;background: #fff;border-radius: 6px;border-top: 8px solid var(--dark-secondary-color);padding: 20px 14px;box-shadow: 0px 0px 16px 0px rgba(16,16,16,0.2);justify-content: flex-start;height: 100%;}
 .price-section .price-card.for-teams{border-top-color: var(--primary-color);}
 .price-section .price-card .price-head{font-size: 18px;line-height: normal;font-weight: 500;color: #000;margin-bottom: 5px;}
@@ -138,8 +140,8 @@ body{font-family: "Poppins", sans-serif !important;}
 .price-section .price-card .listing-divs{margin-top: 10px;display: flex;flex-direction: column;gap: 7px 0;height: 100%;}
 .price-section .price-card .listing-divs .subheading{font-size: 14px;line-height: normal;text-transform: uppercase;color: #00000060;margin-bottom: 0;}
 .price-section .price-card .listing-divs .list-div{display: flex;flex-direction: column;gap: 7px 0;margin-bottom: 20px;}
-.price-section .price-card .listing-divs .list-div .list{display: flex;gap: 0 6px;align-items: center;font-size: 14px;line-height: 22px;}
-.price-section .price-card .listing-divs .icon{font-size: 12px;color: var(--primary-color);}
+.price-section .price-card .listing-divs .list-div .list{display: flex;gap: 0 10px;align-items: flex-start;font-size: 14px;line-height: 22px;}
+.price-section .price-card .listing-divs .icon{font-size: 12px;color: var(--primary-color);margin-top: 7px;}
 .price-section .price-card .price-btn{margin-top: auto;width: 100%;}
 
 .sign-up-sec{background: #fafafa;position: relative;margin-bottom: -55px;padding-bottom: 100px !important;}
@@ -289,6 +291,9 @@ body{font-family: "Poppins", sans-serif !important;}
 }
 @media (max-width:991px){
     .main-benner-row{gap: 30px 0;}
+    .main-benner-row .img-div{width: 100%;display: flex;align-items: center;justify-content: center;}
+    .main-benner-section .carousel-inner{height: 750px;}
+    .main-benner-row .img-div .banner-img{height: 280px;}
     .section-padding{padding: 54px 0;}
 
     .call-action-sec .stroke-text{display: none;}
@@ -371,6 +376,8 @@ body{font-family: "Poppins", sans-serif !important;}
     .footer .links .footer-link, .footer .get-in-touch-div .location-div, .footer .get-in-touch-div .contact-div{font-size: 14px;line-height: 24px;}
     .footer .social-links .footer-social-media-link{font-size: 14px;width: 28px;height: 28px;}
     .footer .footer-title{font-size: 18px;margin-bottom: 15px;}
+
+    .main-benner-row .img-div .banner-img{height: auto;}
 }
 @media (max-width:575px) {
     .feature-sec .icon-div{width: 60px;height: 60px;}
@@ -397,4 +404,13 @@ body{font-family: "Poppins", sans-serif !important;}
     .sign-up-sec .text-content .input-div{flex-wrap: wrap;flex-direction: column;gap: 15px 0;}
     .sign-up-sec .text-content .input-text{width: 100%;}
     .sign-up-sec .primary-btn{width: 100%;}
+
+
+    .main-benner-section .carousel-inner{height: 800px;align-items: flex-start;}
+    .main-benner-section .carousel-item{height: 100%;}
+    .main-benner-section .main-benner-row{height: 100%;}
+}
+@media (max-width:375px) {
+    .main-benner-section .carousel-inner{height: 890px;}
+    
 }
