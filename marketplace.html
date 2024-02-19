@@ -23,7 +23,7 @@
     </head>
 <body>
     <nav class="navbar fg-navbar navbar-expand-xl" id="navMain">
-        <a class="navbar-brand" href="javascript:void(0)"><img src="images/logo.png" alt="Flipguardian" class="brand-logo-img"></a>
+        <a class="navbar-brand" href="https://demo-flipguardian.netlify.app/"><img src="images/logo.png" alt="Flipguardian" class="brand-logo-img"></a>
         <button type="button" class="btn navbar-toggler border-0 toggle-menu" onclick="toggleSlide()" id="slide-toggle">
             <span class="navbar-dash"></span>
             <span class="navbar-dash"></span>
@@ -33,7 +33,7 @@
             <ul class="navbar-nav ml-auto" id="elastic_parentsss" data-targets=".nav-item">
                 <li class="nav-item active"><a class="nav-link" href="javascript:void(0)">Individual</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Teams</a></li>
-                <li class="nav-item"><a class="nav-link active" href="javascript:void(0)">Marketplace</a></li>
+                <li class="nav-item"><a class="nav-link active" href="https://demo-flipguardian-marketplace.netlify.app/">Marketplace</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Resources</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact Us</a></li>
@@ -48,7 +48,7 @@
             <div class="inner-content">
                 <h4 class="heading">Discover Engaging Digital Flipbooks</h4>
                 <h6 class="subheading">Browse our catalog of high-quality flipbooks created by professionals</h6>
-                <a href="javascript:void(0)" class="primary-btn">Start Browsing Catalog</a>
+                <a href="#browse-catalog" class="primary-btn">Start Browsing Catalog</a>
             </div>
         </div>
     </section>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="row mx-auto my-auto justify-content-center">
-                <div id="carouselExampleIndicators" class="carousel slide flipbooks-slider" data-bs-ride="carousel" data-bs-interval="100000000">
+                <div id="carouselExampleIndicators" class="carousel slide flipbooks-slider" data-bs-ride="carousel" data-bs-interval="4500">
                     <div class="carousel-inner flipbooks-cards" role="listbox">
                       <div class="carousel-item active">
                         <div class="col-md-4 carousel-col">
@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">PixelPainter92</h6>
-                                    <h6 class="title">Fantasy World Adventures on an Epic Journey</h6>
+                                    <a href="javascript:void(0)" class="title">Fantasy World Adventures on an Epic Journey</a>
                                     <p class="desc">Embark on an epic journey through a fantastical realm filled with magic and wonder.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -113,7 +113,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
                                     <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -136,7 +136,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">ArtisticDreamer</h6>
-                                    <h6 class="title">Dreamy Landscapes: A Visual Journey</h6>
+                                    <a href="javascript:void(0)" class="title">Dreamy Landscapes: A Visual Journey</a>
                                     <p class="desc">Lose yourself in the mesmerizing beauty of serene landscapes and tranquil scenes that evoke a sense of peace and tranquility.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -159,7 +159,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">FlipbookMaster</h6>
-                                    <h6 class="title">The Art of Animation: Basics and Beyond the Limits</h6>
+                                    <a href="javascript:void(0)" class="title">The Art of Animation: Basics and Beyond the Limits</a>
                                     <p class="desc">Learn the fundamentals of animation and unleash your creativity with step-by-step guides and expert tips.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -182,7 +182,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">DigitalArtNinja</h6>
-                                    <h6 class="title">Digital Delights: A Collection of Stunning Artworks</h6>
+                                    <a href="javascript:void(0)" class="title">Digital Delights: A Collection of Stunning Artworks</a>
                                     <p class="desc">Feast your eyes on a gallery of breathtaking digital artworks showcasing the limitless possibilities of digital creativity.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -213,7 +213,7 @@
         </div>
     </section>
 
-    <section class=" section-padding">
+    <section class="section-padding pt-0" id="browse-catalog">
         <div class="container">
             <div class="sec-heading-div">
                 <h3 class="title mb-0">Browse Catalog</h3>
@@ -222,8 +222,86 @@
             <div class="row flipbooks-cards">
                 <div class="col-lg-3">
                     <div class="filter-div">
+                        <a href="javascript:void(0)" class="reset-btn">Reset</a>
                         <div class="form-group">
                             <label for="price_range" class="form-label">Price</label>
+                            <div class="checkboxs">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="price_range" id="price-1"/>
+                                    <label class="form-check-label" for="price-1">$1.00 - $5.00</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="price_range" id="price-2"/>
+                                    <label class="form-check-label" for="price-2">$5.00 - $10.00</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="price_range" id="price-3"/>
+                                    <label class="form-check-label" for="price-3">$10.00 - $15.00</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="price_range" id="price-4"/>
+                                    <label class="form-check-label" for="price-4">$15.00 - $20.00</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="price_range" id="price-5"/>
+                                    <label class="form-check-label" for="price-5">$20.00 - $25.00</label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="star_rating" class="form-label">Rating</label>
+                            <div class="checkboxs">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="star_rating" id="one-star"/>
+                                    <label class="form-check-label" for="one-star">
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="star_rating" id="two-star"/>
+                                    <label class="form-check-label" for="two-star">
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="star_rating" id="three-star"/>
+                                    <label class="form-check-label" for="three-star">
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="star_rating" id="four-star"/>
+                                    <label class="form-check-label" for="four-star">
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="star_rating" id="five-star"/>
+                                    <label class="form-check-label" for="five-star">
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                      <i class="fa-solid fa-star rated"></i>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,10 +309,52 @@
                     <div class="row flipbooks-cards-row">
                         <div class="col-md-6 carousel-col">
                             <div class="flipbooks-card">
-                                <div class="img-div"><div class="img">IMG</div></div>
+                                <div class="img-div carousel slide" id="inner-img-slider-1" data-bs-ride="carousel" data-bs-interval="4500">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#inner-img-slider-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active"><div class="img">IMG 1</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 2</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 3</div></div>
+                                    </div>
+                                </div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
+                                    <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
+                                    <div class="price-star-div">
+                                        <div class="star-div">
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                        </div>
+                                        <h6 class="price">$12.99</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div carousel slide" id="inner-img-slider-2" data-bs-ride="carousel" data-bs-interval="4500">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#inner-img-slider-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active"><div class="img">IMG 1</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 2</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 3</div></div>
+                                    </div>
+                                </div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">StoryWeaverPro</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
                                     <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -254,7 +374,38 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
+                                    <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
+                                    <div class="price-star-div">
+                                        <div class="star-div">
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon rated"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                            <i class="fa-solid fa-star star-icon"></i>
+                                        </div>
+                                        <h6 class="price">$12.99</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 carousel-col">
+                            <div class="flipbooks-card">
+                                <div class="img-div carousel slide" id="inner-img-slider-3" data-bs-ride="carousel" data-bs-interval="4500">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#inner-img-slider-3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#inner-img-slider-3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active"><div class="img">IMG 1</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 2</div></div>
+                                        <div class="carousel-item"><div class="img">IMG 3</div></div>
+                                    </div>
+                                </div>
+                                <div class="inner-text-content">
+                                    <h6 class="author-screen-name">StoryWeaverPro</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
                                     <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -274,7 +425,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
                                     <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -294,47 +445,7 @@
                                 <div class="img-div"><div class="img">IMG</div></div>
                                 <div class="inner-text-content">
                                     <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
-                                    <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
-                                    <div class="price-star-div">
-                                        <div class="star-div">
-                                            <i class="fa-solid fa-star star-icon rated"></i>
-                                            <i class="fa-solid fa-star star-icon rated"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                        </div>
-                                        <h6 class="price">$12.99</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 carousel-col">
-                            <div class="flipbooks-card">
-                                <div class="img-div"><div class="img">IMG</div></div>
-                                <div class="inner-text-content">
-                                    <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
-                                    <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
-                                    <div class="price-star-div">
-                                        <div class="star-div">
-                                            <i class="fa-solid fa-star star-icon rated"></i>
-                                            <i class="fa-solid fa-star star-icon rated"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                            <i class="fa-solid fa-star star-icon"></i>
-                                        </div>
-                                        <h6 class="price">$12.99</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 carousel-col">
-                            <div class="flipbooks-card">
-                                <div class="img-div"><div class="img">IMG</div></div>
-                                <div class="inner-text-content">
-                                    <h6 class="author-screen-name">StoryWeaverPro</h6>
-                                    <h6 class="title">Tales of Mystery and Intrigue</h6>
+                                    <a href="javascript:void(0)" class="title">Tales of Mystery and Intrigue</a>
                                     <p class="desc">into a collection of gripping mysteries and suspenseful narratives that will keep you on the edge of your seat.</p>
                                     <div class="price-star-div">
                                         <div class="star-div">
@@ -404,7 +515,7 @@
     </footer>
 
     <script>
-        let items = document.querySelectorAll('.popular-flipbooks-sec .carousel .carousel-item')
+        let items = document.querySelectorAll('.popular-flipbooks-sec .flipbooks-slider.carousel .carousel-item')
 
         items.forEach((el) => {
             const minPerSlide = 3
@@ -420,7 +531,7 @@
             }
         })
 
-        const cards = document.querySelectorAll(".carousel-item");
+        const cards = document.querySelectorAll(".flipbooks-slider.carousel .carousel-item");
         let maxHeight = 0;
 
         // Find the maximum height among all cards
