@@ -47,7 +47,6 @@ body{font-family: "Poppins", sans-serif !important;}
 .nav-slide-open .fg-navbar .navbar-slide{display: inline-block;}
 
 /* Hero Section  */
-/* .main-benner-section{background: #F8F8F8;} */
 .main-benner-section{overflow: hidden;height: 100%;padding: 25px 0;}
 .main-benner-section .text-content .heading{font-family: var(--oxyzen-font);font-weight: bolder;font-size: 32px;line-height: 46px;margin-bottom: 10px;color: #000;}
 .main-benner-section .text-content .subheading{font-size: 18px;line-height: 28px;font-weight: 600;color: var(--dark-secondary-color);margin-bottom: 25px;}
@@ -82,8 +81,6 @@ body{font-family: "Poppins", sans-serif !important;}
 .feature-sec .feature-card .subheading{font-size: 14px;line-height: normal;text-transform: capitalize;color: #00000060;margin-bottom: 0;font-weight: 700;}
 .feature-sec .feature-card .p-text{max-width: 530px;}
 
-/* v2  */
-/* .feature-sec.v2 .common-heading{align-items: flex-start;} */
 .feature-v2{display: grid;gap: 30px;grid-template-columns: repeat(2,1fr);}
 .feature-v2 .title{width: 100%;background: rgba(37,170,225,.15);padding: 14px 28px;margin-bottom: 0;border-radius: 6px 6px 0 0;font-size: 18px;font-weight: bold;text-transform: uppercase;color: var(--primary-color);font-family: var(--oxyzen-font);text-align: center;}
 .feature-v2 .inner-sec{border: 1px solid rgba(37,170,225,.15);border-radius: 6px;}
@@ -113,7 +110,6 @@ body{font-family: "Poppins", sans-serif !important;}
 .action-card .heading{font-size: 26px;line-height: 38px;color: #fff;font-weight: bold;font-family: var(--oxyzen-font);margin-bottom: 0;}
 .action-card .p-text{color: #fafafa;}
 .action-card .primary-btn:hover{background: #000;}
-
 
 .pricing-sec{background: #f8f8f8;}
 .pricing-sec .pricing-row{gap: 15px 0;}
@@ -151,8 +147,6 @@ body{font-family: "Poppins", sans-serif !important;}
 .sign-up-sec .text-content .input-div{display: flex;align-items: center;gap: 0 10px;width: 100%;justify-content: center;}
 .sign-up-sec .text-content .input-text{width: 400px;border: 1px solid #ddd;padding: 14px 18px;background: transparent;border-radius: 4px;}
 .sign-up-sec .text-content .input-text:focus-visible{outline: 0;border: 1px solid var(--primary-color);}
-
-
 
 
 /* Marketplace Page CSS  */
@@ -258,8 +252,6 @@ body{font-family: "Poppins", sans-serif !important;}
     .flipbooks-cards-row{gap: 15px 0;}
 }
 
-
-/* Footer  */
 .footer{background: var(--dark-secondary-color);padding: 70px 0 0 0;overflow: hidden;border-top-left-radius: 60px;border-top-right-radius: 60px;position: relative;z-index: 2;}
 .footer .get-in-touch-div{display: flex;flex-direction: column;gap: 15px 0;}
 .footer .get-in-touch-div .location-div{font-size: 16px;line-height: 24px;color: #fff;}
@@ -324,7 +316,7 @@ body{font-family: "Poppins", sans-serif !important;}
 .individual-price-page.price-section .price-card .listing-divs .list-div .list{font-size: 16px;line-height: 26px;}
 .individual-price-page.price-section .month-tag{font-size: 13px;padding: 6px 14px;margin-bottom: 7px;}
 .pricing-heading{font-size: 34px;line-height: normal;font-weight: 600;color: var(--primary-color);border-bottom: 3px solid var(--primary-color);width: fit-content;margin: auto auto 25px auto;}
-/* Call to action */
+
 .call-cta-strip{padding: 40px 0 0 0;}
 .call-cta-strip .cta-strip{background:var(--primary-color) linear-gradient(90deg, var(--primary-color   ) 0%,#0543bf 44%,rgba(255,255,255,0.01) 100%);padding:50px 25px 55px;border-radius:25px;position:relative;box-shadow:0 -20px 50px inset rgba(0, 159, 238, 0.49);overflow:hidden;}
 .call-cta-strip .cta-strip .text{text-align: left;}
@@ -440,7 +432,6 @@ body{font-family: "Poppins", sans-serif !important;}
 
     .main-benner-row .img-div .banner-img{height: auto;}
 
-
     .about-indi-flip .img-div .logo-icon{height: 140px;}
     .about-indi-flip .text-content .subheading{font-size: 18px;line-height: 28px;}
     .about-indi-flip .text-content .text{font-size: 16px;line-height: 26px;}
@@ -477,12 +468,10 @@ body{font-family: "Poppins", sans-serif !important;}
     .sign-up-sec .text-content .input-text{width: 100%;}
     .sign-up-sec .primary-btn{width: 100%;}
 
-
     .main-benner-section .carousel-inner{height: 800px;align-items: flex-start;}
     .main-benner-section .carousel-item{height: 100%;}
     .main-benner-section .main-benner-row{height: 100%;}
 }
 @media (max-width:375px) {
     .main-benner-section .carousel-inner{height: 890px;}
-    
 }
