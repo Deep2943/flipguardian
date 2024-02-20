@@ -298,6 +298,42 @@ body{font-family: "Poppins", sans-serif !important;}
 .captcha-div .primary-btn{padding: 11.5px 14px;border-radius: 0;}
 .captcha-div .top .captcha-text{height: 100%;padding: 6px 12px;border: 1px solid #ddd;border-radius: 0;font-size: 16px;line-height: normal;letter-spacing: 6px;}
 
+.about-indi-row{gap: 30px 0;}
+.individual-page-sec.page-banner-section .inner-content .heading{max-width: 860px;}
+.about-indi-flip{padding: 30px 0;background: #fff;position: relative;}
+.about-indi-flip::before{content: '';position: absolute;width: 100%;height: 100%;top: 0;right: 0;background: url(images/pattern-nobg.svg);background-repeat: no-repeat;background-position: center;background-size: cover;z-index: 1;opacity: 0.6;}
+.about-indi-flip .img-div .logo-icon{height: 200px;}
+.about-indi-flip .text-content{display: flex;flex-direction: column;gap: 15px 0;position: relative;z-index: 3;}
+.about-indi-flip .text-content .text{margin: 0;font-size: 18px;line-height: 32px;font-weight: 500;color: #212529;}
+.about-indi-flip .text-content .subheading{color: #000;font-size: 26px;line-height: 36px;text-transform: capitalize;font-weight: 600;}
+@keyframes contact-smallround {0%,100% {transform: translateY(0)} 50% {transform: translateY(40px)}}
+.details-section{background: #f9f9f9;position: relative;overflow: hidden;}
+.details-section::before{content: '';background: url(images/blue-dots.png) repeat;height: 170px;position: absolute;right: 3px;bottom: 12px;width: 360px;z-index: 1;animation: 7.5s infinite contact-smallround;}
+.details-section .card-content{display: grid;grid-template-columns: repeat(2,1fr);}
+.details-section .card-content .inner-card{display: flex;flex-direction: column;align-items: center;justify-content: flex-start;text-align: center;border-right: 1px solid #ddd;padding: 26px 22px;border-bottom: 1px solid #ddd;height: 100%;}
+.details-section .card-content .inner-card:nth-child(even){border-right: 0;}
+.details-section .card-content .inner-card:nth-last-child(1){border-bottom: 0;}
+.details-section .card-content .inner-card .heading{font-size: 18px;line-height: 28px;margin-bottom: 15px;font-weight: 500;color: #000;}
+
+.individual-price-page{background: #fff;position: relative;}
+.individual-price-page .price-btn{width: fit-content !important;}
+.individual-price-page .price-card{box-shadow: none;border: 0;padding: 0;}
+.individual-price-page.price-section .price-card .price-head{font-size: 22px;}
+.individual-price-page.price-section .price-card .text{font-size: 16px;line-height: 24px;}
+.individual-price-page.price-section .price-card .listing-divs .subheading{font-size: 16px;font-weight: 500;}
+.individual-price-page.price-section .price-card .listing-divs .list-div .list{font-size: 16px;line-height: 26px;}
+.individual-price-page.price-section .month-tag{font-size: 13px;padding: 6px 14px;margin-bottom: 7px;}
+.pricing-heading{font-size: 34px;line-height: normal;font-weight: 600;color: var(--primary-color);border-bottom: 3px solid var(--primary-color);width: fit-content;margin: auto auto 25px auto;}
+/* Call to action */
+.call-cta-strip{padding: 40px 0 0 0;}
+.call-cta-strip .cta-strip{background:var(--primary-color) linear-gradient(90deg, var(--primary-color   ) 0%,#0543bf 44%,rgba(255,255,255,0.01) 100%);padding:50px 25px 55px;border-radius:25px;position:relative;box-shadow:0 -20px 50px inset rgba(0, 159, 238, 0.49);overflow:hidden;}
+.call-cta-strip .cta-strip .text{text-align: left;}
+.call-cta-strip .cta-strip .text .head{margin:0 0 20px;color: #fff;font-size: 29px;line-height: normal;}
+.call-cta-strip .cta-strip .text .subheading{font-size: 19px;line-height: 32px;color: #fff;max-width: 85%;font-weight: 500;}
+.call-cta-strip .list-div{display: flex;flex-direction: column;gap: 12px 0;align-items: flex-start;justify-content: center;margin-top: 10px;}
+.call-cta-strip .list-div .list{display: flex;align-items: center;gap: 0 7px;font-size: 18px;line-height: 26px;color: #fff;}
+.call-cta-strip .icon{font-size: 14px;}
+
 @media (max-width:1200px) {
     .fg-navbar .navbar-nav{gap: 0 15px;}
     .fg-navbar .nav-link{font-size: 14px;line-height: 22px;}
@@ -344,6 +380,10 @@ body{font-family: "Poppins", sans-serif !important;}
     .price-section .cards{grid-template-columns: repeat(1,1fr);gap: 15px 0;}
 
     .footer .left-padding{padding-left: 15px;}
+
+    .details-section .card-content{grid-template-columns:repeat(1,1fr)}
+    .details-section .card-content .inner-card{border-right: 0 !important;padding: 18px 0px;}
+    .details-section::before{display: none;}
 }
 @media (max-width:576px) {
     .fg-navbar .navbar-brand{padding: 15px;}
@@ -399,6 +439,17 @@ body{font-family: "Poppins", sans-serif !important;}
     .footer .footer-title{font-size: 18px;margin-bottom: 15px;}
 
     .main-benner-row .img-div .banner-img{height: auto;}
+
+
+    .about-indi-flip .img-div .logo-icon{height: 140px;}
+    .about-indi-flip .text-content .subheading{font-size: 18px;line-height: 28px;}
+    .about-indi-flip .text-content .text{font-size: 16px;line-height: 26px;}
+    .details-section .card-content .inner-card .heading{font-size: 16px;line-height: 24px;}
+    .call-cta-strip .cta-strip .text .head{font-size: 22px;margin-bottom: 12px;}
+    .call-cta-strip .cta-strip .text .subheading{font-size: 16px;line-height: 26px;max-width: 100%;margin-bottom: 15px;}
+    .call-cta-strip .list-div .list{font-size: 14px;line-height: 22px;}
+    .call-cta-strip .cta-strip{padding: 32px 20px 40px;}
+    .pricing-heading{font-size: 26px;margin-bottom: 15px;}
 }
 @media (max-width:575px) {
     .feature-sec .icon-div{width: 60px;height: 60px;}
