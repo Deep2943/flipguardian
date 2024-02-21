@@ -26,6 +26,8 @@ body{font-family: "Poppins", sans-serif !important;}
 .common-heading{display: flex;align-items: center;justify-content: center;width: 100%;margin-bottom: 45px;flex-direction: column;gap: 13px 0;}
 .common-heading .sec-title{font-size: 32px;line-height: 34px;font-family: var(--oxyzen-font);font-weight: bolder;margin-bottom: 0;}
 .common-heading .subheading{margin: 0;font-size: 16px;line-height: 26px;font-weight: 500;}
+.sticky-header{position: sticky;top: 0;background: #fff;}
+.common-heading.sticky-header{margin-bottom: 35px;padding-bottom: 10px;}
 
 /* Navbar Toggler CSS  */
 .navbar-toggler:focus{outline:none;box-shadow:none;}
@@ -125,7 +127,7 @@ body{font-family: "Poppins", sans-serif !important;}
 .price-col{display: flex;flex-direction: column;}
 .price-section .price-row{gap: 30px 0;}
 .price-section .month-tag{font-size: 11px;padding: 4px 12px;background: #f3f3f3;border-radius: 60px;color: var(--primary-color);width: fit-content;font-weight: 600;margin-bottom: 5px;display: block;}
-.price-section .pricing-for-heading{font-size: 22px;line-height: 28px;font-weight: 700;color: #000;margin-bottom: 15px;text-align: left;padding-bottom: 15px;border-bottom: 1px solid #ddd;}
+.price-section .pricing-for-heading{font-size: 22px;line-height: 28px;font-weight: 700;color: #000;margin-bottom: 0;text-align: left;padding-bottom: 15px;border-bottom: 1px solid #ddd;background: #fff;position: sticky;top: 0;}
 .price-section .cards{display: grid;grid-template-columns: repeat(1,1fr);gap: 0 15px;height: 100%;}
 .price-section .price-card{display: flex;flex-direction: column;gap: 20px 0;background: #fff;border-radius: 6px;border-top: 8px solid var(--dark-secondary-color);padding: 20px 14px;box-shadow: 0px 0px 16px 0px rgba(16,16,16,0.2);justify-content: flex-start;height: 100%;}
 .price-section .price-card.for-teams{border-top-color: var(--primary-color);}
@@ -135,7 +137,7 @@ body{font-family: "Poppins", sans-serif !important;}
 .price-section .price-card .price .month{font-size: 14px;}
 .price-section .price-card .listing-divs{margin-top: 10px;display: flex;flex-direction: column;gap: 7px 0;height: 100%;}
 .price-section .price-card .listing-divs .subheading{font-size: 14px;line-height: normal;text-transform: uppercase;color: #00000060;margin-bottom: 0;}
-.price-section .price-card .listing-divs .list-div{display: flex;flex-direction: column;gap: 7px 0;margin-bottom: 20px;}
+.price-section .price-card .listing-divs .list-div{display: flex;flex-direction: column;gap: 7px 0;margin-bottom: 20px;padding: 0 1px;}
 .price-section .price-card .listing-divs .list-div .list{display: flex;gap: 0 10px;align-items: flex-start;font-size: 14px;line-height: 22px;}
 .price-section .price-card .listing-divs .icon{font-size: 12px;color: var(--primary-color);margin-top: 7px;}
 .price-section .price-card .price-btn{margin-top: auto;width: 100%;}
@@ -410,7 +412,7 @@ body{font-family: "Poppins", sans-serif !important;}
     .sign-up-sec .text-content .input-text{width: 200px;padding: 8px 14px;font-size: 14px;line-height: 24px;}
     .sign-up-sec::before{display: none;}
 
-    .price-section .pricing-for-heading{margin-bottom: 15px;font-size: 20px;line-height: 24px;}
+    .price-section .pricing-for-heading{margin-bottom: 0;font-size: 20px;line-height: 24px;}
     .price-section .price-card .price{font-size: 24px;}
     .mn-yr-div{flex-direction: column;align-items: flex-start;gap: 15px 0;}
 
